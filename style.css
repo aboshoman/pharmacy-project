@@ -119,3 +119,91 @@ html{
 .button-80:not(:disabled):active {
   transform: translateY(.125rem);
 }
+
+.sec_3{
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.card{
+  background: url(./assist/imgs/imgs/imgs02.jpg);
+  background-position:center;
+  height: fit-content;
+  border-radius: .925rem;
+  display: flex;
+}
+.card2{
+  background: url(./assist/imgs/imgs/imgs03.jpg);
+  /* background-position:center; */
+  height: fit-content;
+  border-radius: .925rem;
+  display: flex;
+}
+.card-body{
+  padding: 4.8rem 11rem ;
+  height: max-content;
+  width: max-content;
+}
+.card-title{
+  text-align: left;
+  font-size: 45px;
+  color:#013243;
+  font-weight: 700;
+}
+.card-text em{
+  font-size: 30px;
+  color: #fff;
+
+}
+.card-body button{
+  background: #076cec;
+    padding: 7px 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5rem;
+}
+.card-body button:hover{
+  background: #68e1ff;
+  transition: all .8s  ease ;
+}
+.card-body button:active{
+  border: #65ceff;
+}
+.card2title{
+  text-align: right;
+  font-size: 45px;
+  color:#013243;
+  font-weight: 700;
+}
+.card2-body{
+  padding: 3.5rem 11rem ;
+  height: max-content;
+  width: max-content;
+}
+.card2-title{
+  text-align: right;
+  font-size: 45px;
+  color:#013243;
+  font-weight: 700;
+}
+.row_2{
+  width: 100%;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+.card2-body button{
+  background: #076cec;
+    padding: 7px 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5rem;
+}
+.card2-body button:hover{
+  background: #68e1ff;
+  transition: all .8s  ease ;
+}
